@@ -26,8 +26,8 @@ Huidig aantal woorden: **2382**
 - (spatie) -> (leeg)
 
 ## Powershell
-Simpel voorbeeld om deze in Powershell aan te roepen. Als je hierbij hulp nodig hebt, dan laat het maar weten.
+Een simpel voorbeeld om deze woordenlijst in Powershell aan te roepen. Als je hierbij hulp nodig hebt, dan laat het maar weten.
 ```
-$words = invoke-restmethod -uri "https://raw.githubusercontent.com/bertman80/woordenlijst/refs/heads/main/woorden.json" -erroraction stop
+$words = invoke-restmethod -uri "https://raw.githubusercontent.com/bertman80/woordenlijst/refs/heads/main/woorden.json"
 $words | get-random
 ```
