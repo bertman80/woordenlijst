@@ -28,6 +28,6 @@ Huidig aantal woorden: **2382**
 ## Powershell
 Een simpel voorbeeld om deze woordenlijst in Powershell aan te roepen. Als je hierbij hulp nodig hebt, dan laat het maar weten.
 ```
-$words = invoke-restmethod -uri "https://raw.githubusercontent.com/bertman80/woordenlijst/refs/heads/main/woorden.json"
-$words | get-random
+$woorden = invoke-restmethod -uri "https://raw.githubusercontent.com/bertman80/woordenlijst/refs/heads/main/woorden.json"
+$woorden | get-random
 ```
